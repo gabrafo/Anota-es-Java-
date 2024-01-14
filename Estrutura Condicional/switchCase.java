@@ -5,7 +5,7 @@ public class switchCase {
         Scanner sc = new Scanner(System.in);
         System.out.println("Qual dia da semana você quer visualizar?");
         int dia = sc.nextInt();
-        String resp = "NENHUM";
+        String resp;
         switch (dia){
             case 1:
                 resp = "DOMINGO";
@@ -27,6 +27,9 @@ public class switchCase {
                 break;
             case 7:
                 resp = "SÁBADO";
+                break;
+            default:
+                resp = "NENHUM";
                 break;
         }
         System.out.println(resp);
