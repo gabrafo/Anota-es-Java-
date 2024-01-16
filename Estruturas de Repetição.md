@@ -48,7 +48,7 @@ bloco de comandos;
 ![Pasted image 20240115215324](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/92d757be-cf1f-4c0e-9638-bddd6b80ee9d)
 
 ![Pasted image 20240116161040](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/99a26bfe-e86d-48cf-bb97-43be63c175fb)
-Créditos da ilustração: <a href="https://br.freepik.com/vetores-gratis/ilustracao-de-homem-negocios_2606517.htm#query=usu%C3%A1rio&position=4&from_view=search&track=sph&uuid=6e4142ff-be34-41ed-9696-9663cf38617b">Imagem de rawpixel.com</a> no Freepik
+Créditos da ilustração: <a href="https://br.freepik.com/vetores-gratis/ilustracao-de-homem-negocios_2606517.htm#query=usu%C3%A1rio&position=4&from_view=search&track=sph&uuid=6e4142ff-be34-41ed-9696-9663cf38617b">Imagem de rawpixel.com</a> no Freepik.
 
 Repare que, no exemplo dado a cima, tínhamos conhecimento de exatamente quantas vezes o programa deveria ser executado a partir da variável "vzs" e, por esse motivo, o uso de **For** se evidencia, nessa situação, muito mais adequado do que o uso de um laço **While**, ainda que este segundo também seja possível e válido.
 
