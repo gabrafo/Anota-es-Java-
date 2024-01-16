@@ -42,7 +42,7 @@ bloco de comandos;
 }
 ```
 
-![Pasted image 20240116160759](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/76f88189-d8cd-4d9d-871b-0886a1ba4cca)
+![image](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/a707169a-6448-41ef-bdd7-7e755230a3d3)
 
 **EXEMPLO** em Java:
 
