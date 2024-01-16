@@ -6,13 +6,13 @@
 
 ### Sintaxe
 
-![Pasted image 20240115190135](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/4e7a0859-641c-441f-a38c-d0b30074cbc0)
+![Pasted image 20240115215200](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/4679375b-9d63-49db-8112-810ddd440fe5)
 
 #### Exemplos de laço
 
 **EXEMPLO 1**:  Joãozinho, em sua ida à feira, lembrou as palavras de sua mãe: "Você só volta pra casa quando estiver com todas as dez maçãs que lhe pedi".  Assim sendo, **enquanto** o menino não comprasse a dezena de frutas, não teria satisfeito a condição de sua progenitora. 
 
-![[Pasted image 20240115190135.png]]
+![Pasted image 20240115190135](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/4e7a0859-641c-441f-a38c-d0b30074cbc0)
 Créditos da ilustração: <a href="https://br.freepik.com/vetores-gratis/feliz-menino-com-maca_4607728.htm#query=desenho%20menino%20ma%C3%A7%C3%A3%20png&position=0&from_view=search&track=ais&uuid=ae898750-9de3-4cca-be69-810e730d2241">Imagem de brgfx</a> no Freepik.
 
 Usando o código acima na linguagem de programação Java, fica sub entendido que Joãozinho irá relembrar que precisa de mais uma unidade de maçã até que tenha dez em sua sacola, para poder retornar para casa e satisfazer o pedido de sua mãe.
