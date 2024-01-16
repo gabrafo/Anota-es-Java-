@@ -13,6 +13,7 @@
 **EXEMPLO 1**:  Joãozinho, em sua ida à feira, lembrou as palavras de sua mãe: "Você só volta pra casa quando estiver com todas as dez maçãs que lhe pedi".  Assim sendo, **enquanto** o menino não comprasse a dezena de frutas, não teria satisfeito a condição de sua progenitora. 
 
 ![Pasted image 20240115190135](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/4e7a0859-641c-441f-a38c-d0b30074cbc0)
+
 Créditos da ilustração: <a href="https://br.freepik.com/vetores-gratis/feliz-menino-com-maca_4607728.htm#query=desenho%20menino%20ma%C3%A7%C3%A3%20png&position=0&from_view=search&track=ais&uuid=ae898750-9de3-4cca-be69-810e730d2241">Imagem de brgfx</a> no Freepik.
 
 Usando o código acima na linguagem de programação Java, fica sub entendido que Joãozinho irá relembrar que precisa de mais uma unidade de maçã até que tenha dez em sua sacola, para poder retornar para casa e satisfazer o pedido de sua mãe.
@@ -48,6 +49,7 @@ bloco de comandos;
 ![Pasted image 20240115215324](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/92d757be-cf1f-4c0e-9638-bddd6b80ee9d)
 
 ![Pasted image 20240116161040](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/99a26bfe-e86d-48cf-bb97-43be63c175fb)
+
 Créditos da ilustração: <a href="https://br.freepik.com/vetores-gratis/ilustracao-de-homem-negocios_2606517.htm#query=usu%C3%A1rio&position=4&from_view=search&track=sph&uuid=6e4142ff-be34-41ed-9696-9663cf38617b">Imagem de rawpixel.com</a> no Freepik.
 
 Repare que, no exemplo dado a cima, tínhamos conhecimento de exatamente quantas vezes o programa deveria ser executado a partir da variável "vzs" e, por esse motivo, o uso de **For** se evidencia, nessa situação, muito mais adequado do que o uso de um laço **While**, ainda que este segundo também seja possível e válido.
