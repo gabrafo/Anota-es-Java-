@@ -37,3 +37,22 @@ public class ex01R {
         sc.close();
     }
 }
+
+/*
+Elseif() do C++ e Else If() do Java são diferentes, em C++ não se cria um novo escopo após a declaração do Else, mas
+em Java sim. Então, enquanto em C++ posso simplesmente fazer:
+
+    if (gab1.length() != 1) {
+        std::cout << "Tamanho inválido, insira apenas um caractere." << std::endl;
+        i--;
+    } else if (r1 == r) {
+        std::cout << "A aluna acertou a questão!" << std::endl;
+        cont++;
+    } else if (r1 != r) {
+        std::cout << "A aluna errou a questão." << std::endl;
+    }
+
+Com o segundo else if() representando apenas uma condição diferente da primeira, e o terceiro else if() uma condição
+diferente de ambas as anteriores, em Java o else if() cria um novo escopo, considerando que a partir do else há um novo
+escopo, onde todas as condições a seguir já estarão sendo avaliadas como diferentes do if() ou else if() anterior.
+ */
