@@ -28,6 +28,14 @@ Segue um exemplo prático de um programa simples em Java que só irá parar de s
 
 Resumindo, o laço **While** serve para executar um bloco de comandos **enquanto** uma condição pré-estabelecida é <span style='color:green'>verdadeira</span>, sendo uma ferramenta preferencial para casos onde não se sabe com exatidão a quantidade de vezes que o bloco de comandos deve ser executado. Essa sentença, normalmente, é baseada em operadores lógicos como: >, <, >=, <=, !=, == , and (&&), or (||), etc.
 
+## Do While
+
+Outra estrutura repetitiva comum é a estrutura faça-enquanto (do-while), na qual a condição é definida em forma de **While** e o bloco de comandos a precede após o **Do**. O bloco de comandos é executado obrigatoriamente ao menos uma vez, na primeira execução do programa, e depois só é executado caso a condição do loop **While** seja <span style='color:green'>verdadeira</span>.
+
+### Sintaxe
+
+![Pasted image 20240118103657](https://github.com/gabrafo/Anotacoes-Java/assets/113377700/9aa175ca-7654-4e31-aaf3-7d72aa3c6023)
+
 ## For
 
 O laço **para** visa situações onde, normalmente, já se sabe previamente a quantidade de repetições a ser feita pelo programa, sendo essa a base mais comum para a condição de execução da estrutura. Nesse sentido, no caso de Joãozinho, o laço **para** serviria perfeitamente, já que o menino precisava adquirir exatamente dez maçãs. A grande diferença entre **While** e **For** é justamente essa: o loop **While** tem a premissa de ser executado até que uma condição seja satisfeita, sem que nós necessariamente saibamos de início quantas execuções do bloco de comando isso levaria, enquanto o loop **For** tem uma condição e iteração pré-definidas logo de partida.
