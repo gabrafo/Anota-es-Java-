@@ -10,9 +10,9 @@ Este repositório contém exercícios resolvidos em Java, acompanhados de coment
 
 ## Como Utilizar
 1. Clone este repositório para a sua máquina local:
-
+```
 git clone https://github.com/gabrafo/Anotacoes-Java.git
-
+```
 2. Navegue até a pasta do exercício desejado e abra o arquivo `.java` correspondente.
 
 3. Leia os comentários para entender a lógica por trás da solução.
