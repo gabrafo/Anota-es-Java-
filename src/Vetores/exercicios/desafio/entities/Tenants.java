@@ -1,5 +1,6 @@
 package Vetores.exercicios.desafio.entities;
 
+// USO DE MÉTODOS DE ORDENAÇÃO (SELECTION SORT)
 public class Tenants {
     private String name;
     private String email;
