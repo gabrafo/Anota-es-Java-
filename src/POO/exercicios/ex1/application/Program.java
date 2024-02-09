@@ -11,7 +11,7 @@ public class Program {
 
         System.out.println("Enter product data...");
         System.out.print("Name: ");
-        String name = sc.nextLine(); // Variável local que será usada como parâmetro EstruturaRepetitiva.para o construtor
+        String name = sc.nextLine(); // Variável local que será usada como parâmetro para o construtor
         System.out.print("Price: U$");
         double price = sc.nextDouble();
 
@@ -20,7 +20,7 @@ public class Program {
         System.out.println(); // P/ pular linha
         System.out.println("Product data: " + product); // Poderia ser também: product.toString()
         product.setName("Computer"); // Usa um setter EstruturaRepetitiva.para mudar o valor do atributo name
-        System.out.println("UPDATED NAME: " + product.getName()); // Uso de getter EstruturaRepetitiva.para exibir o valor do atributo name
+        System.out.println("UPDATED NAME: " + product.getName()); // Uso de getter para exibir o valor do atributo name
         product.setPrice(1200);
         System.out.println("UPDATED PRICE: " + product.getPrice());
 
