@@ -18,8 +18,8 @@ public class functions {
         sc.close();
     }
 
-    // Public = EstruturaRepetitiva.para que a função esteja disponível em outras classes
-    // Static = EstruturaRepetitiva.para que a função possa ser chamada sem a criação de um objeto
+    // Public = para que a função esteja disponível em outras classes
+    // Static = para que a função possa ser chamada sem a criação de um objeto
     public static int max(int x, int y, int z){ // Função de tipo int, obrigatoriamente retorna um número inteiro
         int aux; // Cada função tem seu escopo, então aux é uma variável local
         if(x>y && y>z){

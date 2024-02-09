@@ -19,7 +19,7 @@ public class Program {
 
         System.out.println(); // P/ pular linha
         System.out.println("Product data: " + product); // Poderia ser também: product.toString()
-        product.setName("Computer"); // Usa um setter EstruturaRepetitiva.para mudar o valor do atributo name
+        product.setName("Computer"); // Usa um setter para mudar o valor do atributo name
         System.out.println("UPDATED NAME: " + product.getName()); // Uso de getter para exibir o valor do atributo name
         product.setPrice(1200);
         System.out.println("UPDATED PRICE: " + product.getPrice());
