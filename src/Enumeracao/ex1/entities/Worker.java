@@ -23,15 +23,15 @@ public class Worker {
         this.department = department;
     }
 
-    private void addContract(HourContract contract){
+    public void addContract(HourContract contract){
         contracts.add(contract);
     }
 
-    private void removeContract(HourContract contract){
+    public void removeContract(HourContract contract){
         contracts.remove(contract);
     }
 
-    private double income(int year, int month){
+    public double income(int year, int month){
         double sum = baseSalary;
 
         for(HourContract c : contracts){
@@ -44,5 +44,37 @@ public class Worker {
         }
 
         return sum;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public WorkerLevel getLevel() {
+        return level;
+    }
+
+    public void setLevel(WorkerLevel level) {
+        this.level = level;
+    }
+
+    public Double getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(Double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 }
