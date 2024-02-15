@@ -1,4 +1,4 @@
-package Enumeracao.ex2.entities;
+package EnumeracaoComposicao.ex2.entities;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

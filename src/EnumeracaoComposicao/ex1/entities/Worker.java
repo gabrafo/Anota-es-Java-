@@ -1,6 +1,6 @@
-package Enumeracao.ex1.entities;
+package EnumeracaoComposicao.ex1.entities;
 
-import Enumeracao.ex1.entities.enums.WorkerLevel;
+import EnumeracaoComposicao.ex1.entities.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.List;

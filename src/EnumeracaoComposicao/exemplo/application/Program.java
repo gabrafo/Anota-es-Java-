@@ -1,7 +1,7 @@
-package Enumeracao.exemplo.application;
+package EnumeracaoComposicao.exemplo.application;
 
-import Enumeracao.exemplo.entities.Order;
-import Enumeracao.exemplo.entities.enums.OrderStatus;
+import EnumeracaoComposicao.exemplo.entities.Order;
+import EnumeracaoComposicao.exemplo.entities.enums.OrderStatus;
 
 import java.time.Instant;
 

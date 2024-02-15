@@ -1,9 +1,9 @@
-package Enumeracao.ex1.application;
+package EnumeracaoComposicao.ex1.application;
 
-import Enumeracao.ex1.entities.Department;
-import Enumeracao.ex1.entities.HourContract;
-import Enumeracao.ex1.entities.Worker;
-import Enumeracao.ex1.entities.enums.WorkerLevel;
+import EnumeracaoComposicao.ex1.entities.Department;
+import EnumeracaoComposicao.ex1.entities.HourContract;
+import EnumeracaoComposicao.ex1.entities.Worker;
+import EnumeracaoComposicao.ex1.entities.enums.WorkerLevel;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

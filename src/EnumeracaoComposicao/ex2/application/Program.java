@@ -1,7 +1,7 @@
-package Enumeracao.ex2.application;
+package EnumeracaoComposicao.ex2.application;
 
-import Enumeracao.ex2.entities.Comment;
-import Enumeracao.ex2.entities.Post;
+import EnumeracaoComposicao.ex2.entities.Comment;
+import EnumeracaoComposicao.ex2.entities.Post;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

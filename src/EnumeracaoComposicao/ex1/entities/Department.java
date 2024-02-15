@@ -1,4 +1,4 @@
-package Enumeracao.ex1.entities;
+package EnumeracaoComposicao.ex1.entities;
 
 public class Department {
     private String name;

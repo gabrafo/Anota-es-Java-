@@ -1,6 +1,6 @@
-package Enumeracao.exemplo.entities;
+package EnumeracaoComposicao.exemplo.entities;
 
-import Enumeracao.exemplo.entities.enums.OrderStatus;
+import EnumeracaoComposicao.exemplo.entities.enums.OrderStatus;
 
 import java.time.Instant;
 
