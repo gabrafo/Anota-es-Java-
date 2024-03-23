@@ -38,7 +38,7 @@ public class Account {
         balance-=amount + 5.0;
     }
 
-    public void deposit(double amount){
+    public final void deposit(double amount){ // Método não pode ser sobreposto em subclasses (uso de final)
         balance+=amount;
     }
 }

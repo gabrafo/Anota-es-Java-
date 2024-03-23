@@ -1,6 +1,6 @@
 package POO.heranca.exemplo.entities;
 
-public class SavingsAccount extends Account{
+public final class SavingsAccount extends Account{ // Uso de final IMPEDE que essa classe seja herdada por outra
     private Double interestRate; // Taxa de juros
 
     public SavingsAccount() {

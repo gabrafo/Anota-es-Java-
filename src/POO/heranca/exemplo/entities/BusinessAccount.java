@@ -1,6 +1,6 @@
 package POO.heranca.exemplo.entities;
 
-public class BusinessAccount extends Account{ // Sintaxe de herança
+public final class BusinessAccount extends Account{ // Sintaxe de herança
     private Double loanLimit;
 
     public BusinessAccount(){
@@ -24,6 +24,12 @@ public class BusinessAccount extends Account{ // Sintaxe de herança
         if(amount<=loanLimit) {
             balance+=amount-10.0; // Balance pode ser alterado em BusinessAccount graças ao uso do modificador "Protected"
         }
+    }
+
+    @Override
+    public void withdraw(double amount){
+        super.withdraw(amount); // Chama o método da super classe
+        balance -= 2.0; // Desconta 2 do saldo
     }
 }
 
