@@ -41,5 +41,6 @@ public class Program {
         for(int i = 0; i<n; i++){
             System.out.printf(list.get(i).getName() + " - %.2f\n", list.get(i).payment());
         }
+        sc.close();
     }
 }
