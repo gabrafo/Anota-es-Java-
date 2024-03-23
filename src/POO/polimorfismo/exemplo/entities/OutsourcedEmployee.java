@@ -20,7 +20,7 @@ public class OutsourcedEmployee extends Employee{ // Herança
         this.additionalCharge = additionalCharge;
     }
 
-    @Override
+    @Override // Sobrescreve o método da super classe
     public Double payment(){
         return super.payment() + (additionalCharge * 1.1);
     }
