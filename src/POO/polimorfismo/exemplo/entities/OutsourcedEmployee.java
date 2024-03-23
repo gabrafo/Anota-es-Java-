@@ -1,6 +1,6 @@
 package POO.polimorfismo.exemplo.entities;
 
-public class OutsourcedEmployee extends Employee{
+public class OutsourcedEmployee extends Employee{ // Herança
     protected Double additionalCharge;
 
     public OutsourcedEmployee() {
