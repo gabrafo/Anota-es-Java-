@@ -1,5 +1,5 @@
-package POO.membros.estaticos.V3.application;
-import POO.membros.estaticos.V3.util.Calculator;
+package POO.membros_estaticos.V3.application;
+import POO.membros_estaticos.V3.util.Calculator;
 
 import java.util.Locale;
 import java.util.Scanner;

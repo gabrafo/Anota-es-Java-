@@ -1,4 +1,4 @@
-package POO.membros.estaticos.V1;
+package POO.membros_estaticos.V1;
 
 import java.util.Locale;
 import java.util.Scanner;

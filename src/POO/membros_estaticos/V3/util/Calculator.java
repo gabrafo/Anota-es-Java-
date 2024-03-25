@@ -1,4 +1,4 @@
-package POO.membros.estaticos.V3.util;
+package POO.membros_estaticos.V3.util;
 
 public class Calculator {
 

@@ -1,4 +1,4 @@
-package POO.membros.estaticos.V2.util;
+package POO.membros_estaticos.V2.util;
 
 public class Calculator {
         public final double PI = 3.14159; // Declaração de membro estático como constante (usa-se CapsLock sempre no nome)
