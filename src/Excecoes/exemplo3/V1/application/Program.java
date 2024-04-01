@@ -18,7 +18,7 @@ public class Program {
         System.out.print("Room number: ");
         int number = sc.nextInt();
         System.out.print("Check-in date (dd/MM/yyyy): ");
-        Date checkIn = sdf.parse(sc.next()); // CHamada que pode lançar a exceção
+        Date checkIn = sdf.parse(sc.next()); // Chamada que pode lançar a exceção
         System.out.print("Check-out date (dd/MM/yyyy): ");
         Date checkOut = sdf.parse(sc.next());
 
@@ -30,7 +30,7 @@ public class Program {
 
             System.out.println();
             System.out.println("Enter data to update the reservation:");
-            checkIn = sdf.parse(sc.next()); // CHamada que pode lançar a exceção
+            checkIn = sdf.parse(sc.next()); // Chamada que pode lançar a exceção
             System.out.print("Check-out date (dd/MM/yyyy): ");
             checkOut = sdf.parse(sc.next());
 
