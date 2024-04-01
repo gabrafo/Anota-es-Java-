@@ -1,5 +1,7 @@
 package Excecoes.exemplo3.V3.model.entities;
 
+import Excecoes.exemplo3.V3.model.exceptions.DomainException;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -14,7 +16,10 @@ public class Reservation {
     public Reservation() {
     }
 
-    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) throws DomainException { // Propaga as exceções ao invés de tratar
+        if(!checkOut.after(checkIn)){
+            throw new DomainException("Check-out date must be after check-in date.");
+        }
         this.roomNumber = roomNumber;
         this.checkIn = checkIn;
         this.checkOut = checkOut;
@@ -41,18 +46,18 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS); // Converte de ms para dias
     }
 
-    public String updateDates(Date checkIn, Date checkOut){
+    public void updateDates(Date checkIn, Date checkOut) throws DomainException { // Lança a exceção para ser tratada no programa principal
         Date now = new Date();
         if(checkIn.before(now) || checkOut.before(now)){
-            return("Reservation dates for update must be future dates");
+            throw new DomainException("Reservation dates for update must be future dates"); // Lança exceção em caso de erros
+            // Exceção para caso argumentos (passagem dos parâmetros) sejam inválidos
         }
         if(!checkOut.after(checkIn)){
-            return("Check-out date must be after check-in date.");
+            throw new DomainException("Check-out date must be after check-in date.");
         }
 
         this.checkIn = checkIn;
         this.checkOut = checkOut;
-        return null; // Retorno nulo pra indicar que não houve nenhum erro
     }
 
     @Override // toString é sempre sobreposição

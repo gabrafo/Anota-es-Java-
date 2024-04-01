@@ -1,13 +1,12 @@
 package Excecoes.exemplo3.V1.application;
 
 import Excecoes.exemplo3.V1.model.entities.Reservation;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-// Versão de solução MUITO RUIM
+// Versão de solução MUITO RUIMs
 
 public class Program {
     public static void main(String[] args) throws ParseException { // Método main é um método que pode lançar essa exceção
