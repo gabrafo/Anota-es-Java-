@@ -1,4 +1,4 @@
-package Interfaces.exemplo1.model.services;
+package Interfaces.exemplo2.model.services;
 
 import Interfaces.exemplo1.model.entities.CarRental;
 import Interfaces.exemplo1.model.entities.Invoice;
@@ -9,9 +9,9 @@ public class RentalService {
     private Double pricePerDay;
     private Double pricePerHour;
 
-    private BrazilTaxService taxService; // Isso não é uma boa prática, faz com que o RentalService dependa do BrazilTaxService
+    private TaxService taxService;
 
-    public RentalService(Double pricePerHour, Double pricePerDay, BrazilTaxService taxService) {
+    public RentalService(Double pricePerHour, Double pricePerDay, TaxService taxService) {
         this.pricePerDay = pricePerDay;
         this.pricePerHour = pricePerHour;
         this.taxService = taxService;

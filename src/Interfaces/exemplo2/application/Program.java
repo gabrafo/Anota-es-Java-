@@ -1,4 +1,4 @@
-package Interfaces.exemplo1.application;
+package Interfaces.exemplo2.application;
 
 import Interfaces.exemplo1.model.entities.CarRental;
 import Interfaces.exemplo1.model.entities.Vehicle;
@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-// SEM O USO DE INTERFACES
+// COM O USO DE INTERFACES
 
 public class Program {
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class Program {
         double pricePerHour = sc.nextDouble();
         System.out.print("Entre com o preço por dia: ");
         double pricePerDay = sc.nextDouble();
-        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
+        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService()); // BrazilTaxService é um upcasting de TaxService
 
         rentalService.processInvoice(cr);
         System.out.println();
