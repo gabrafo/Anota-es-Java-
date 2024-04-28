@@ -1,6 +1,5 @@
 package Interfaces.defmethods.application;
 
-import Interfaces.defmethods.model.services.BrazilInterestService;
 import Interfaces.defmethods.model.services.InterestService;
 import Interfaces.defmethods.model.services.UsaInterestService;
 
