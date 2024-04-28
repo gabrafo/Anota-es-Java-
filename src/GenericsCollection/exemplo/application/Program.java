@@ -2,6 +2,7 @@ package GenericsCollection.exemplo.application;
 
 import GenericsCollection.exemplo.model.services.PrintService;
 
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
