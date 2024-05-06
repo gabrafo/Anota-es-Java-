@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Program {
 
         File path = new File(filePath);
 
-        Map<String, Integer> candidateData = new HashMap<>();
+        Map<String, Integer> candidateData = new LinkedHashMap<>();
 
         try(BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
