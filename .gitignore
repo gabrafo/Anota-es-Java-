@@ -2,3 +2,4 @@
 *.md
 /.out/
 /out
+db.properties

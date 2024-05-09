@@ -19,14 +19,6 @@ public class Candidate {
         this.name = name;
     }
 
-    public int getVotes() {
-        return votes;
-    }
-
-    public void setVotes(int votes) {
-        this.votes = votes;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
