@@ -6,7 +6,6 @@ Este repositório contém exercícios resolvidos em Java, acompanhados de coment
 ## Funcionalidades
 - **Exercícios Comentados**: Cada exercício possui um arquivo Java com comentários detalhados explicando a solução.
 - **Organização por Tópicos**: Os exercícios estão organizados por tópicos, como loops, condicionais, arrays, etc.
-- **Anotações em Markdown**: Além dos códigos, também incluí anotações em Markdown para facilitar a compreensão.
 
 ## Como Utilizar
 1. Clone este repositório para a sua máquina local:
@@ -20,7 +19,11 @@ git clone https://github.com/gabrafo/Anotacoes-Java.git
 ## Tecnologias Utilizadas
 - Java
 - SpringBoot
-- Markdown
+
+## Repositórios Correlatos
+- [Projeto de xadrez](https://github.com/gabrafo/Chess-Java)
+- [Demonstração do padrão de desenvolvimento DAO](https://github.com/gabrafo/Demo-DAO-JDBC)
+- [Exemplo de persistência de dados usando JPA/Hibernate](https://github.com/gabrafo/Exemplo-JPA)
 
 ## Contribuições
 Contribuições são bem-vindas! Se você encontrar algum erro ou tiver sugestões, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
