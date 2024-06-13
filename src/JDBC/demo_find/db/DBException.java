@@ -1,4 +1,4 @@
-package JDBC.db;
+package JDBC.demo_find.db;
 
 import java.io.Serial;
 
