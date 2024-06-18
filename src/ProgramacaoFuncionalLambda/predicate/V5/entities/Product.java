@@ -1,4 +1,4 @@
-package ProgramacaoFuncionalLambda.exemplo2.entities;
+package ProgramacaoFuncionalLambda.predicate.V5.entities;
 
 public class Product {
     private String name;

@@ -1,6 +1,6 @@
 package ProgramacaoFuncionalLambda.exemplo2.application;
 
-import GenericsCollection.exemplo8.entities.Product;
+import ProgramacaoFuncionalLambda.exemplo2.entities.Product;
 
 import java.util.ArrayList;
 import java.util.List;

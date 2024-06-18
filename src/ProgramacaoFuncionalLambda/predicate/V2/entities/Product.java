@@ -1,4 +1,4 @@
-package ProgramacaoFuncionalLambda.exemplo2.entities;
+package ProgramacaoFuncionalLambda.predicate.V2.entities;
 
 public class Product {
     private String name;
@@ -27,6 +27,10 @@ public class Product {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public static boolean staticProductPredicate(Product p){
+        return p.getPrice()>=100;
     }
 
     @Override
