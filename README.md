@@ -21,6 +21,7 @@ git clone https://github.com/gabrafo/Anotacoes-Java.git
 - SpringBoot
 
 ## Repositórios Correlatos
+- [Disciplina da UFLA: IPOO](https://github.com/gabrafo/ExerciciosIPOO)
 - [Projeto de xadrez](https://github.com/gabrafo/Chess-Java)
 - [Demonstração do padrão de desenvolvimento DAO](https://github.com/gabrafo/Demo-DAO-JDBC)
 - [Exemplo de persistência de dados usando JPA/Hibernate](https://github.com/gabrafo/Exemplo-JPA)
